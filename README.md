@@ -43,13 +43,13 @@ sh narrowPeak_to_GPSevents.sh <sample sheet location> <output folder>
 
 ## Step 4: RMD
 
-Download gem.jar at http://groups.csail.mit.edu/cgs/gem/rmd/.
+Download gem.jar at http://groups.csail.mit.edu/cgs/gem/rmd/ to ```resources/```.
 
 Usage:
 ```
 sh RMD.sh
 ```
-The reults will be at ```resources/processed_chip/``` See http://groups.csail.mit.edu/cgs/gem/rmd/ for more information.
+The reults will be at ```resources/processed_chip/```. See http://groups.csail.mit.edu/cgs/gem/rmd/ for more information.
 
 
 ## Step 5: HDP
