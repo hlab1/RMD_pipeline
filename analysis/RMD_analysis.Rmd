@@ -1,0 +1,55 @@
+---
+title: "RMD_demo"
+output: html_document
+date: '2022-07-21'
+---
+
+```{r}
+library(dplyr)
+library(tidyr)
+library(ComplexHeatmap)
+library(RColorBrewer)
+```
+
+
+```{r}
+matrix = read.csv('./results/01900-topics.dat', sep = ' ', header = FALSE)
+matrix = matrix[, colSums(is.na(matrix)) == 0]
+
+nameList = readLines("./results/0_BS_clusters.Col_ChIP.Dictioinary.txt")
+names(matrix) = nameList
+head(matrix)
+nrow(matrix)
+
+condition = gsub(".*_", "", nameList)
+df_condition = as.data.frame(cbind(nameList, condition))
+df_condition
+
+c_scaled_matrix = t(scale(matrix, center = FALSE))
+df_c_scaled_matrix = as.data.frame(c_scaled_matrix)
+head(df_c_scaled_matrix)
+```
+
+
+```{r}
+pdf("./results/heatmap.pdf", width=12, height=18)
+
+column_ha = HeatmapAnnotation(Module = anno_barplot(apply(c_scaled_matrix, 2, sum), height = unit(1.2, "in")))
+row_ha = rowAnnotation(TF = anno_barplot(apply(c_scaled_matrix, 1, sum), width = unit(1.2, "in")),
+                       condition = df_condition$condition)
+
+hmap = Heatmap(c_scaled_matrix,
+        name = "TF Standardized Count Matrix",
+        col = brewer.pal(9, 'YlOrRd'),
+        rect_gp = gpar(col = "gray75", lwd = 0.1),
+        top_annotation = column_ha,
+        right_annotation = row_ha,
+        row_names_gp = gpar(fontsize = 10),
+        column_names_gp = gpar(fontsize = 10))
+
+hmap
+
+dev.off()
+
+hmap
+```
