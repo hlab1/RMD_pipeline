@@ -1,0 +1,2 @@
+#file	sampid	group
+/scratch/yz8868/RMD_chip/resources/chip-seq/GSM6833057_ja_stz_air_rep1_peaks.narrowPeak	79	ja_stz_air

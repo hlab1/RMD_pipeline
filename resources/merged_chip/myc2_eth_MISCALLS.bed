@@ -1,0 +1,9 @@
+# This file contains regions which were either overlap with a neighboring region (i.e. a 'collision') or were  identified not to contain a tfit call after merging. You may want to manually check these.
+Chr1	(29487929, 29488299)/(29488238, 29488618)	collision
+Chr2	(834054, 834640)/(834633, 834955)	collision
+Chr3	(6118579, 6119083)/(6119076, 6119872)	collision
+Chr3	(13590167, 13590971)/(13590933, 13591399)	collision
+Chr3	(13590947, 13591385)/(13591325, 13592389)	collision
+Chr4	(17773569, 17773981)/(17773884, 17774438)	collision
+Chr5	(980449, 981165)/(981090, 981560)	collision
+ChrC	(110118, 115514)/(113220, 127984)	collision

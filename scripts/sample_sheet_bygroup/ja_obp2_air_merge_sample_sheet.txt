@@ -1,0 +1,2 @@
+#file	sampid	group
+/scratch/yz8868/RMD_chip/resources/chip-seq/GSM6833052_ja_obp2_air_rep1_peaks.narrowPeak	74	ja_obp2_air

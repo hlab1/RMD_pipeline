@@ -1,0 +1,3 @@
+# This file contains regions which were either overlap with a neighboring region (i.e. a 'collision') or were  identified not to contain a tfit call after merging. You may want to manually check these.
+Chr3	(7261607, 7262005)/(7262004, 7262682)	collision
+Chr3	(13589948, 13591012)/(13590810, 13591378)	collision

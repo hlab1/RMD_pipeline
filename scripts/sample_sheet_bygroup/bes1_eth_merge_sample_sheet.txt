@@ -1,0 +1,2 @@
+#file	sampid	group
+/scratch/yz8868/RMD_chip/resources/chip-seq/GSM6833024_bes1_eth_rep1_peaks.narrowPeak	46	bes1_eth
