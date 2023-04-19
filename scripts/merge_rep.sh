@@ -38,19 +38,19 @@ done
 
 
 else
-#for file in $merged_chip_path*MUMERGE.bed; do
-#	Rscript $WD/scripts/add_id.r $file $merged_chip_path $merged_chip_with_id_path
-#	wait
-#done
+for file in $merged_chip_path*MUMERGE.bed; do
+	Rscript $WD/scripts/add_id.r $file $merged_chip_path $merged_chip_with_id_path
+	wait
+done
 
 
-#for file in $sample_sheet_bygroup_path*merge_sample_sheet.txt; do
-#	sh $WD/scripts/concatenate_rep.sh $file $cat_chip_path
-#	wait
-#done
+for file in $sample_sheet_bygroup_path*merge_sample_sheet.txt; do
+	sh $WD/scripts/concatenate_rep.sh $file $cat_chip_path
+	wait
+done
 
 
-#sh $WD/scripts/overlap.sh $WD/scripts/merge_sample_sheet.txt $overlap_chip_path $merged_chip_with_id_path $cat_chip_path
+sh $WD/scripts/overlap.sh $WD/scripts/merge_sample_sheet.txt $overlap_chip_path $merged_chip_with_id_path $cat_chip_path
 
 Rscript $WD/scripts/avg_summit.r $overlap_chip_path $processed_chip_path
 
