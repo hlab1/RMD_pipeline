@@ -43,6 +43,8 @@ sh narrowPeak_to_GPSevents.sh <sample sheet location> <output folder>
 
 ## Step 4: RMD
 
+Download gem.jar at http://groups.csail.mit.edu/cgs/gem/rmd/.
+
 Usage:
 ```
 sh RMD.sh
