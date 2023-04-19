@@ -1,0 +1,16 @@
+This pipeline requires:
+
+r/gcc/4.1.0:
+library(dplyr)
+library(tidyr)
+library(ComplexHeatmap)
+library(RColorBrewer)
+
+bedtools/intel/2.29.2
+jdk/1.8.0_271
+gem/3.3
+gsl/intel/2.6
+
+muMerge: https://github.com/Dowell-Lab/mumerge
+hdp: https://github.com/blei-lab/hdp
+gem.jar: http://groups.csail.mit.edu/cgs/gem/rmd/
