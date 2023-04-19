@@ -8,6 +8,4 @@ module load r/gcc/4.1.0
 
 mkdir -p $2
 
-Rscript $WD/scripts/narrowpeak_to_GPSevents.r \
-	$1 \
-	$2
+Rscript $WD/scripts/narrowpeak_to_GPSevents.r $1 $2
