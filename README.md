@@ -1,5 +1,7 @@
 # RMD_pipeline
 
+See dependencies at ```dependencies.txt```.
+
 
 ## Step 1: Merge narrowPeak replicates
 
