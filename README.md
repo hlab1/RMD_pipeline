@@ -8,8 +8,8 @@ Generate a tab delimited text file with 3 columns (file, sampid, group) for merg
 
 Usage:
 ```
-git clone https://github.com/Dowell-Lab/mumerge # get mumerge pipeline
 cd scripts
+git clone https://github.com/Dowell-Lab/mumerge # get mumerge pipeline
 sh merge_rep.sh merge ./merge_sample_sheet.txt # the second argument is the location of the txt file.
 ```
 
