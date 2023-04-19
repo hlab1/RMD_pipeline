@@ -57,4 +57,4 @@ The results will be at ```results/RMD_HDP/```
 
 ## Step 6: Post analysis
 
-See ```/analysis/RMD_analysis.rmd```.
+See ```/analysis/RMD_analysis.rmd```. It uses 2 files: 1) ```resources/processed_chip/0_BS_clusters.Col_ChIP.Dictioinary.txt```, 2) ```results/RMD_HDP/01900-topics.dat```.
