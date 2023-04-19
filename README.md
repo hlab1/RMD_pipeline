@@ -21,9 +21,40 @@ Usage:
 sh merge_rep.sh
 ```
 
-The final merged GPS events will be at resources/processed_chip.
+The final merged GPS events will be at ```resources/processed_chip```.
 
 
 ## Step 3: Generate GPS events directly from narrowPeak if no merging necessary
 
+Generate a tab delimited text file with 2 columns (narrowPeak_file, events_file). The narrowPeak_file column contains paths to BED files, events_file column contains the corresponding GPS output file name.
 
+![image](https://user-images.githubusercontent.com/108205199/233181537-e696d548-5ebe-41d2-8e82-e011067cbe9d.png)
+
+Usage:
+```
+sh narrowPeak_to_GPSevents.sh <sample sheet location> <output folder>
+```
+
+
+## Step 4: RMD
+
+Usage:
+```
+sh RMD.sh
+```
+The reults will be at ```resources/processed_chip/``` See http://groups.csail.mit.edu/cgs/gem/rmd/ for more information.
+
+
+## Step 5: HDP
+
+Usage:
+```
+sbatch hdp.s
+```
+
+The results will be at ```results/RMD_HDP/```
+
+
+## Step 6: Post analysis
+
+See ```/analysis/RMD_analysis.rmd```.
