@@ -1,0 +1,2 @@
+#file	sampid	group
+/scratch/yz8868/RMD_chip/resources/chip-seq/GSM6833073_tcp3_br_rep1_peaks.narrowPeak	95	tcp3_br

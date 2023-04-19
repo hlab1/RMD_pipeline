@@ -1,0 +1,3 @@
+#file	sampid	group
+/scratch/yz8868/RMD_chip/resources/chip-seq/GSM6833031_edf2_air_rep1_peaks.narrowPeak	53	edf2_air
+/scratch/yz8868/RMD_chip/resources/chip-seq/GSM6833032_edf2_air_rep2_peaks.narrowPeak	54	edf2_air

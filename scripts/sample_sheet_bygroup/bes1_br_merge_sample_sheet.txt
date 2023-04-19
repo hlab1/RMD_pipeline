@@ -1,0 +1,2 @@
+#file	sampid	group
+/scratch/yz8868/RMD_chip/resources/chip-seq/GSM6833072_bes1_br_rep1_peaks.narrowPeak	94	bes1_br

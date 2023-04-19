@@ -1,0 +1,4 @@
+#file	sampid	group
+/scratch/yz8868/RMD_chip/resources/chip-seq/GSM6833042_ja_myc2_air_rep1_peaks.narrowPeak	64	ja_myc2_air
+/scratch/yz8868/RMD_chip/resources/chip-seq/GSM6833043_ja_myc2_air_rep2_peaks.narrowPeak	65	ja_myc2_air
+/scratch/yz8868/RMD_chip/resources/chip-seq/GSM6833044_ja_myc2_air_rep3_peaks.narrowPeak	66	ja_myc2_air

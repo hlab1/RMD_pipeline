@@ -1,0 +1,3 @@
+#file	sampid	group
+/scratch/yz8868/RMD_chip/resources/chip-seq/GSM6833060_ja_anac055_air_rep1_peaks.narrowPeak	82	ja_anac055_air
+/scratch/yz8868/RMD_chip/resources/chip-seq/GSM6833061_ja_anac055_air_rep2_peaks.narrowPeak	83	ja_anac055_air

@@ -1,0 +1,3 @@
+#file	sampid	group
+/scratch/yz8868/RMD_chip/resources/chip-seq/GSM6833048_ja_tcp3_air_rep1_peaks.narrowPeak	70	ja_tcp3_air
+/scratch/yz8868/RMD_chip/resources/chip-seq/GSM6833049_ja_tcp3_air_rep2_peaks.narrowPeak	71	ja_tcp3_air

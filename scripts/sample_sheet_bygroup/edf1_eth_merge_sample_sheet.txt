@@ -1,0 +1,3 @@
+#file	sampid	group
+/scratch/yz8868/RMD_chip/resources/chip-seq/GSM6832991_edf1_eth_rep1_peaks.narrowPeak	13	edf1_eth
+/scratch/yz8868/RMD_chip/resources/chip-seq/GSM6832992_edf1_eth_rep2_peaks.narrowPeak	14	edf1_eth

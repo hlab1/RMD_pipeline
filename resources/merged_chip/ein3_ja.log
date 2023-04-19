@@ -1,0 +1,27 @@
+Running: /scratch/yz8868/RMD_chip/scripts/mumerge/mumerge/mumerge.py
+Python:
+3.8.6 (default, Oct 11 2020, 20:34:31) 
+[GCC Intel(R) C++ gcc 8.3.1 mode]
+muMerge: v1.1.0
+Hostname: cm011.hpc.nyu.edu
+
+# Sample_ID 	 Filename
+90 	 /scratch/yz8868/RMD_chip/resources/chip-seq/GSM6833068_ein3_ja_rep1_peaks.narrowPeak
+91 	 /scratch/yz8868/RMD_chip/resources/chip-seq/GSM6833069_ein3_ja_rep2_peaks.narrowPeak
+
+input file: /scratch/yz8868/RMD_chip/scripts/sample_sheet_bygroup/ein3_ja_merge_sample_sheet.txt
+
+output path: /scratch/yz8868/RMD_chip/resources/merged_chip/ein3_ja
+'bedtools merge' bedfile: /scratch/yz8868/RMD_chip/resources/merged_chip/ein3_ja_BEDTOOLS_MERGE.bed
+miscalls bedfile: /scratch/yz8868/RMD_chip/resources/merged_chip/ein3_ja_MISCALLS.bed
+muMerge output bedfile: /scratch/yz8868/RMD_chip/resources/merged_chip/ein3_ja_MUMERGE.bed
+
+Groupings:
+0	['90', '91']
+
+Total number of bedfile regions: 614
+
+Distribution of number of Tfit calls for a sample, within a region, across all samples (#calls: #instances):
+{2: 283, 1: 306, 3: 5, 5: 6, 4: 3, 6: 2, 10: 2, 7: 1, 9: 3, 11: 1, 14: 1, 8: 1}
+
+Run time: 4.487418174743652 sec
