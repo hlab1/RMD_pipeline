@@ -1,6 +1,9 @@
 # RMD_pipeline
 
+
 ## Step 1: Merge narrowPeak replicates
+
+Download Mumerge software to ```scripts/```. See https://github.com/Dowell-Lab/mumerge.
 
 Generate a tab delimited text file with 3 columns (file, sampid, group) for merging peaks. The file column contains paths to BED files, sampid can be any id, and group is the group name. Files within same group will be merged.
 
@@ -46,6 +49,8 @@ The reults will be at ```resources/processed_chip/``` See http://groups.csail.mi
 
 
 ## Step 5: HDP
+
+download hdp software to ```resources```. See instructions at https://github.com/blei-lab/hdp.
 
 Usage:
 ```
